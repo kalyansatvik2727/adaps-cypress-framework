@@ -1,0 +1,38 @@
+{
+  "name": "orangehrm_ci_bdd_reports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:headless": "cypress run --spec 'cypress/integration/features/**.feature'",
+    "cy:headed": "cypress run --headed --spec 'cypress/integration/features/**.feature'",
+    "cy:dashboard": "cypress run --record --key 56a21a95-42d6-4fa5-8a61-5e9a5d5ddb69 --spec 'cypress/integration/features/orangeHRM_assign_leave.feature'",
+    "pretest": "",
+    "posttest": "",
+    "test:headless": "npm run cy:headless || npm run cucumber:report",
+    "cucumber:report": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.6.0",
+    "@shelex/cypress-allure-plugin": "^2.19.5",
+    "cypress": "9.0.0",
+    "cypress-cucumber-preprocessor": "^4.0.3",
+    "cypress-localstorage-commands": "^1.4.0",
+    "cypress-react-selector": "2.2.0",
+    "cypress-xpath": "^1.6.2",
+    "moment": "^2.29.1",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/integration/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "./cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Orange HRM - Assign Leave functionality",
+    "line": 1,
+    "id": "orange-hrm---assign-leave-functionality",
+    "tags": [],
+    "uri": "orangeHRM_assign_leave.feature",
+    "elements": [
+      {
+        "id": "orange-hrm---assign-leave-functionality;validate-assign-leave-functionality",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Validate Assign Leave Functionality",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to HRM page",
+            "result": {
+              "status": "passed",
+              "duration": 3114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I enter username in HRM",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter password in HRM",
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on Login button in HRM",
+            "result": {
+              "status": "passed",
+              "duration": 3810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click on button with text 'Assign Leave'",
+            "result": {
+              "status": "passed",
+              "duration": 3243000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select value 'Jasmine Morgan' from Employee name auto suggest dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I select value 'CAN - Bereavement' from leave type dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on view details link and validate pop up data",
+            "result": {
+              "status": "passed",
+              "duration": 655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I select date from From Date date picker",
+            "result": {
+              "status": "passed",
+              "duration": 339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I select date from To Date date picker",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I click on assign button",
+            "result": {
+              "status": "passed",
+              "duration": 2049000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

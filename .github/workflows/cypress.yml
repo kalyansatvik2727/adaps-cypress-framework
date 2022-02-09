@@ -1,0 +1,36 @@
+name: Orange Hrm tests
+
+# on push for testing, will change to on schedule
+on: [push]
+      
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Run npm ci
+        uses: actions/setup-node@v1
+      - run: npm ci
+
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v2
+
+      - name: Upload Screenshot Artifacts
+        uses: actions/upload-artifact@v1
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
+
+      # - name: Upload Video Artifacts
+      #   uses: actions/upload-artifact@v2
+      #   if: failure()
+      #   with:
+      #     name: cypress-videos
+      #     path: cypress/videos
+
+
+
+
