@@ -1,8 +1,9 @@
 {
     "env": {
         "baseUrl": "https://opensource-demo.orangehrmlive.com/",
-        "username": "Admin",
-        "password": "admin123"
+        "username": "",
+        "password": "",
+        "TAGS": "@focus"
     },
     "defaultCommandTimeout": 30000,
     "viewportHeight": 960,
