@@ -3,7 +3,7 @@
         "baseUrl": "https://opensource-demo.orangehrmlive.com/",
         "username": "",
         "password": "",
-        "TAGS": "@focus"
+        "TAGS": "not @focus"
     },
     "defaultCommandTimeout": 30000,
     "viewportHeight": 960,
@@ -15,5 +15,5 @@
     "ignoreTestFiles": "*._spec.ts",
     "integrationFolder": "cypress/integration/",
     "testFiles": "**/*.feature",
-    "projectId": "t6w5tw"
+    "projectId": "m6rniz"
 }
