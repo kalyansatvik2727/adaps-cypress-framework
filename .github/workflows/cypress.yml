@@ -22,7 +22,6 @@ jobs:
         env:
           cypress_username: ${{ secrets.CYPRESS_USERNAME }}
           cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
-          cypress_record_key: ${{ secrets.CYPRESS_RECORD_KEY }}
 
       - name: Upload Screenshot Artifacts
         uses: actions/upload-artifact@v1
