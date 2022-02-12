@@ -19,7 +19,7 @@ jobs:
         env:
           cypress_username: ${{ secrets.CYPRESS_USERNAME }}
           cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
-
+      - run: npm run cy:headless
       - name: Upload Screenshot Artifacts
         uses: actions/upload-artifact@v1
         if: failure()
