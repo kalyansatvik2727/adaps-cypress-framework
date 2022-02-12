@@ -22,7 +22,7 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 3565000000
+              "duration": 4340000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter username in HRM",
             "result": {
               "status": "passed",
-              "duration": 330000000
+              "duration": 296000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I enter password in HRM",
             "result": {
               "status": "passed",
-              "duration": 284000000
+              "duration": 296000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 1272000000
+              "duration": 5551000000
             }
           },
           {
@@ -61,9 +61,8 @@
             "line": 10,
             "name": "I click on button with text 'Assign Leave'",
             "result": {
-              "status": "failed",
-              "duration": 50593000000,
-              "error_message": "AssertionError: Timed out retrying after 50000ms: Expected to find content: 'Assign Leave' but never did.\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\orangeHRM_assign_leave.feature:51:13)\n    at Context.resolveAndRunStepDefinition (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\orangeHRM_assign_leave.feature:10895:9)\n    at Context.eval (https://opensource-demo.orangehrmlive.com/__cypress/tests?p=cypress\\integration\\features\\orangeHRM_assign_leave.feature:10213:35)"
+              "status": "passed",
+              "duration": 2179000000
             }
           },
           {
@@ -72,7 +71,8 @@
             "line": 11,
             "name": "I select value 'Jasmine Morgan' from Employee name auto suggest dropdown",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 517000000
             }
           },
           {
@@ -81,7 +81,8 @@
             "line": 12,
             "name": "I select value 'CAN - Bereavement' from leave type dropdown",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 196000000
             }
           },
           {
@@ -90,7 +91,8 @@
             "line": 13,
             "name": "I click on view details link and validate pop up data",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 626000000
             }
           },
           {
@@ -99,7 +101,8 @@
             "line": 14,
             "name": "I select date from From Date date picker",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 328000000
             }
           },
           {
@@ -108,7 +111,8 @@
             "line": 15,
             "name": "I select date from To Date date picker",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 469000000
             }
           },
           {
@@ -117,7 +121,8 @@
             "line": 16,
             "name": "I click on assign button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 440000000
             }
           }
         ]
