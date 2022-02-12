@@ -17,7 +17,7 @@ jobs:
         run: npm install
 
       - name: Run tests 
-        run: npm run cy:headless
+        run: npm cy:headless
         env:
           cypress_username: ${{ secrets.CYPRESS_USERNAME }}
           cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
