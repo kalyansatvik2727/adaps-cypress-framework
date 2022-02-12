@@ -1,5 +1,5 @@
 Feature: Orange HRM - Recruitment
-        @focus
+        
         Scenario: Perform blank search
                 Given I navigate to HRM page
                 And I enter username in HRM
