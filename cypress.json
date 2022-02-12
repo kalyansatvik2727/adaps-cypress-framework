@@ -3,6 +3,7 @@
         "baseUrl": "https://opensource-demo.orangehrmlive.com/",
         "username": "",
         "password": "",
+        "record_key":"",
         "TAGS": "not @focus"
     },
     "defaultCommandTimeout": 30000,

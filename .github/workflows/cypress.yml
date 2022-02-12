@@ -18,10 +18,12 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           build: npm run cy:headless
+          record: true
         env:
           cypress_username: ${{ secrets.CYPRESS_USERNAME }}
           cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
-      - run: npm cy:headless
+          cypress_record_key: ${{ secrets.CYPRESS_RECORD_KEY }}
+
       - name: Upload Screenshot Artifacts
         uses: actions/upload-artifact@v1
         if: failure()
