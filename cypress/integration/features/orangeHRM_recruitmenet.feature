@@ -7,7 +7,6 @@ Feature: Orange HRM - Recruitment
                 And I click on Login button in HRM
                 And I click on tab with text 'Recruitment'
                 When I perform search in recruitment page
-                Then I validate search results retreive '10' records in recruitment page
 
         Scenario Outline: Perform Specific search
                 Given I navigate to HRM page
