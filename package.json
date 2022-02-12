@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:headless": "cypress run record --key a645779-f92f-4f82-94af-eed425a4aeb9 --spec 'cypress/integration/features/orangeHRM_assign_leave.feature'",
+    "cy:headless": "cypress run --record --key a645779-f92f-4f82-94af-eed425a4aeb9 --spec 'cypress/integration/features/orangeHRM_assign_leave.feature'",
     "cy:headed": "cypress run --headed --spec 'cypress/integration/features/**.feature'",
     "cy:dashboard": "cypress run --record --key aa645779-f92f-4f82-94af-eed425a4aeb9 --env username=Admin,password=admin123 --spec 'cypress/integration/features/orangeHRM_assign_leave.feature'",
     "pretest": "",
