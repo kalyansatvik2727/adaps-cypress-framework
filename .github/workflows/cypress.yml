@@ -18,7 +18,9 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           build: npm run cy:headless
+          start: npm start
           record: true
+          config-file: cypress.json
         env:
           cypress_username: ${{ secrets.CYPRESS_USERNAME }}
           cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
