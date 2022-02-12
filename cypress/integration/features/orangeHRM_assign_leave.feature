@@ -5,7 +5,7 @@ Feature: Orange HRM - Assign Leave functionality
                 And I enter username in HRM
                 And I enter password in HRM
                 And I click on Login button in HRM
-
+        @focus
         Scenario: Validate Assign Leave Functionality
                 And I click on button with text 'Assign Leave'
                 And I select value 'Jasmine Morgan' from Employee name auto suggest dropdown
