@@ -16,7 +16,6 @@ jobs:
 
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
-        run: npm run cy:headless
         env:
           cypress_username: ${{ secrets.CYPRESS_USERNAME }}
           cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
