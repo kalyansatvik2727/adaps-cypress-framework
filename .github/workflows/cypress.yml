@@ -6,26 +6,38 @@ on: [push]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    steps:
+     steps:
       - name: Checkout
-        uses: actions/checkout@v1
-
-      - name: Run npm ci
-        uses: actions/setup-node@v1
-      - run: npm ci
-
-      - name: Run Cypress Tests
-        uses: cypress-io/github-action@v2
-        env:
-          cypress_username: ${{ secrets.CYPRESS_USERNAME }}
-          cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
-      - run: npm cy:headless
-      - name: Upload Screenshot Artifacts
-        uses: actions/upload-artifact@v1
-        if: failure()
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v2
         with:
-          name: cypress-screenshots
-          path: cypress/screenshots
+          node-version: ${{ matrix.node }}
+      - uses: bahmutov/npm-install@v1
+      - run: npm run format
+      - run: npm run build
+      - run: npm cy:headless
+      - run: npm run check:markdown
+    # steps:
+    #   - name: Checkout
+    #     uses: actions/checkout@v1
+
+    #   - name: Run npm ci
+    #     uses: actions/setup-node@v1
+    #   - run: npm ci
+
+    #   - name: Run Cypress Tests
+    #     uses: cypress-io/github-action@v2
+    #     env:
+    #       cypress_username: ${{ secrets.CYPRESS_USERNAME }}
+    #       cypress_password: ${{ secrets.CYPRESS_PASSWORD }}
+    #   - run: npm cy:headless
+    #   - name: Upload Screenshot Artifacts
+    #     uses: actions/upload-artifact@v1
+    #     if: failure()
+    #     with:
+    #       name: cypress-screenshots
+    #       path: cypress/screenshots
 
       # - name: Upload Video Artifacts
       #   uses: actions/upload-artifact@v2
