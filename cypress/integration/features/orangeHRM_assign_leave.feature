@@ -1,4 +1,4 @@
-Feature: Orange HRM - Assign Leave functionality
+Feature: Orange HRM - Assign Leave functionality 
 
         Background:
                 Given I navigate to HRM page
