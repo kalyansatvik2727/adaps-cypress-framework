@@ -33,8 +33,8 @@ And('I click on view details link and validate pop up data', () => {
 
 And('I select date from From Date date picker', () => {
     cy.log('Current Date', Cypress.moment().format('MM/DD/YYYY'))
-    let currentDate = Cypress.moment().add(3,'days').format('DD/MM/YYYY');
-    let futureDay = Math.abs(currentDate.split('/')[0]);
+    let currentDate = Cypress.moment().format('MM/DD/YYYY');
+    let futureDay = Math.abs(currentDate.split('/')[1]);
     cy.log(futureDay);
     cy.get(assignleave.datePicker.fromdate)
     .click()
@@ -45,8 +45,8 @@ And('I select date from From Date date picker', () => {
 
 And('I select date from To Date date picker', () => {
     cy.log('Current Date', Cypress.moment().format('MM/DD/YYYY'))
-    let currentDate = Cypress.moment().add(5,'days').format('DD/MM/YYYY');
-    let futureDay = Math.abs(currentDate.split('/')[0]);
+    let currentDate = Cypress.moment().add(1,'days').format('MM/DD/YYYY');
+    let futureDay = Math.abs(currentDate.split('/')[1]);
     cy.log(futureDay);
     cy.get(assignleave.datePicker.todate)
     .click()

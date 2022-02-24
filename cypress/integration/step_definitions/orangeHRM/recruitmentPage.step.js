@@ -23,7 +23,7 @@ And('I select value {string} from hiring manager dropdown in recruitment page', 
     return cy.selectDropdown(recruitmentpage.select.hiringmanager,value);
 });
 
-And('I validate search results retreive {string} records for specific search in recruitment page', (length) => {
+And('I validate search results retreive records for specific search in recruitment page', (length=1) => {
     let records = parseInt(length);
-    return cy.get(recruitmentpage.select.records).its('length').should('eq', records);
+    return cy.get(recruitmentpage.select.records).its('length').should('be.greaterThan', records);
 });

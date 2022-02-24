@@ -12,7 +12,12 @@
         "keyword": "Scenario",
         "line": 3,
         "name": "Perform blank search",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -22,27 +27,27 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 4503000000
+              "duration": 3049000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 5,
-            "name": "I enter username 'Admin' in HRM",
+            "name": "I enter username in HRM",
             "result": {
               "status": "passed",
-              "duration": 342000000
+              "duration": 243000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "I enter password 'admin123' in HRM",
+            "name": "I enter password in HRM",
             "result": {
               "status": "passed",
-              "duration": 419000000
+              "duration": 251000000
             }
           },
           {
@@ -52,47 +57,27 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 3562000000
+              "duration": 4176000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "I validate subscriber link on home page",
-            "result": {
-              "status": "passed",
-              "duration": 50000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
             "name": "I click on tab with text 'Recruitment'",
             "result": {
               "status": "passed",
-              "duration": 5153000000
+              "duration": 2040000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 10,
+            "line": 9,
             "name": "I perform search in recruitment page",
             "result": {
               "status": "passed",
-              "duration": 1453000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 11,
-            "name": "I validate search results retreive '10' records in recruitment page",
-            "result": {
-              "status": "passed",
-              "duration": 157000000
+              "duration": 604000000
             }
           }
         ]
@@ -100,7 +85,7 @@
       {
         "id": "orange-hrm---recruitment;perform-specific-search",
         "keyword": "Scenario",
-        "line": 25,
+        "line": 22,
         "name": "Perform Specific search",
         "tags": [],
         "type": "scenario",
@@ -108,81 +93,64 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 14,
+            "line": 12,
             "name": "I navigate to HRM page",
             "result": {
-              "status": "passed",
-              "duration": 2588000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 15,
-            "name": "I validate subscriber link on home page",
-            "result": {
-              "status": "passed",
-              "duration": 71000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 16,
+            "line": 13,
             "name": "I click on tab with text 'Recruitment'",
             "result": {
-              "status": "passed",
-              "duration": 3179000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 17,
+            "line": 14,
             "name": "I select value 'IT Manager' from job title dropdown in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 3507000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 18,
+            "line": 15,
             "name": "I select value 'Associate IT Manager' from vacancy dropdown in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 3463000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 19,
+            "line": 16,
             "name": "I select value 'Odis Adalwin' from hiring manager dropdown in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 3550000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 20,
+            "line": 17,
             "name": "I perform search in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 1626000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 21,
-            "name": "I validate search results retreive '4' records for specific search in recruitment page",
+            "line": 18,
+            "name": "I validate search results retreive records for specific search in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 64000000
+              "status": "skipped"
             }
           }
         ]
@@ -190,7 +158,7 @@
       {
         "id": "orange-hrm---recruitment;perform-specific-search",
         "keyword": "Scenario",
-        "line": 26,
+        "line": 23,
         "name": "Perform Specific search",
         "tags": [],
         "type": "scenario",
@@ -198,81 +166,64 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 14,
+            "line": 12,
             "name": "I navigate to HRM page",
             "result": {
-              "status": "passed",
-              "duration": 2626000000
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click on tab with text 'Recruitment'",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I select value 'Software Engineer' from job title dropdown in recruitment page",
+            "result": {
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 15,
-            "name": "I validate subscriber link on home page",
+            "name": "I select value 'Software Engineer' from vacancy dropdown in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 50000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "I click on tab with text 'Recruitment'",
-            "result": {
-              "status": "passed",
-              "duration": 3377000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 17,
-            "name": "I select value 'Software Engineer' from job title dropdown in recruitment page",
-            "result": {
-              "status": "passed",
-              "duration": 3771000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 18,
-            "name": "I select value 'Software Engineer' from vacancy dropdown in recruitment page",
-            "result": {
-              "status": "passed",
-              "duration": 3618000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 19,
             "name": "I select value 'Odis Adalwin' from hiring manager dropdown in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 3527000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 20,
+            "line": 17,
             "name": "I perform search in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 1643000000
+              "status": "skipped"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 21,
-            "name": "I validate search results retreive '3' records for specific search in recruitment page",
+            "line": 18,
+            "name": "I validate search results retreive records for specific search in recruitment page",
             "result": {
-              "status": "passed",
-              "duration": 52000000
+              "status": "skipped"
             }
           }
         ]

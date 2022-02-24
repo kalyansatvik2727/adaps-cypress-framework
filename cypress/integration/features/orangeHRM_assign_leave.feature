@@ -14,3 +14,4 @@ Feature: Orange HRM - Assign Leave functionality
                 And I select date from From Date date picker
                 And I select date from To Date date picker
                 And I click on assign button
+                And I click on Ok button

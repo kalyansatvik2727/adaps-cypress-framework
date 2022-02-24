@@ -43,9 +43,9 @@ And('I click on edit button in Timesheets page', () => {
 And('I select value {string} from Project name auto suggest dropdown in Timesheets page', (text) => {
     return cy.get(timesheets.input.projectname)
         .type(text)
-        .get('.ac_results ul li')
-        .eq(0)
-        .click({ force: true }).wait(3000);
+        // .get('.ac_results ul li')
+        // .eq(0)
+        // .click({ force: true }).wait(3000);
 });
 
 And('I select value {string} from activity name dropdown in Timesheets page', (text) => {

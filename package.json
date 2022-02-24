@@ -7,6 +7,8 @@
     "cy:headless": "cypress run --record --key aa645779-f92f-4f82-94af-eed425a4aeb9 --spec 'cypress/integration/features/orangeHRM_assign_leave.feature'",
     "cy:headed": "cypress run --headed --spec 'cypress/integration/features/**.feature'",
     "cy:dashboard": "cypress run --record --key aa645779-f92f-4f82-94af-eed425a4aeb9 --env username=Admin,password=admin123 --spec 'cypress/integration/features/orangeHRM_assign_leave.feature'",
+    "cy:config:open": "cypress open --config-file cypress.env.json --env username=Admin,password=admin123",
+    "cy:config:run": "cypress run --config-file cypress.env.json --env username=Admin,password=admin123",
     "pretest": "",
     "posttest": "",
     "test:headless": "npm run cy:headless || npm run cucumber:report",

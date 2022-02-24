@@ -8,7 +8,7 @@ Feature: Orange HRM - Assign Leave functionality
 
         Scenario: Validate Assign Leave Functionality
                 And I click on Timesheets button
-                And I select value 'Ruchi Parikh' from Employee name auto suggest dropdown in Timesheets page
+                And I select value 'Odis Adalwin' from Employee name auto suggest dropdown in Timesheets page
                 And I click on view button in Timesheets page
                 # And I click on add timesheet button in Timesheets page
                 # And I select date from From Date date picker in Timesheets page
