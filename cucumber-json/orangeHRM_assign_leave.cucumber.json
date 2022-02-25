@@ -21,7 +21,8 @@
             "line": 4,
             "name": "I navigate to HRM page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5472000000
             }
           },
           {
@@ -30,7 +31,8 @@
             "line": 5,
             "name": "I enter username in HRM",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 275000000
             }
           },
           {
@@ -39,7 +41,8 @@
             "line": 6,
             "name": "I enter password in HRM",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 297000000
             }
           },
           {
@@ -48,7 +51,8 @@
             "line": 7,
             "name": "I click on Login button in HRM",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5533000000
             }
           },
           {
@@ -57,7 +61,8 @@
             "line": 10,
             "name": "I click on button with text 'Assign Leave'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2158000000
             }
           },
           {
@@ -66,7 +71,8 @@
             "line": 11,
             "name": "I select value 'Jasmine Morgan' from Employee name auto suggest dropdown",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 495000000
             }
           },
           {
@@ -75,7 +81,8 @@
             "line": 12,
             "name": "I select value 'CAN - Bereavement' from leave type dropdown",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 193000000
             }
           },
           {
@@ -84,7 +91,8 @@
             "line": 13,
             "name": "I click on view details link and validate pop up data",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 670000000
             }
           },
           {
@@ -93,7 +101,8 @@
             "line": 14,
             "name": "I select date from From Date date picker",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 333000000
             }
           },
           {
@@ -102,7 +111,8 @@
             "line": 15,
             "name": "I select date from To Date date picker",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 507000000
             }
           },
           {
@@ -111,7 +121,8 @@
             "line": 16,
             "name": "I click on assign button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 578000000
             }
           },
           {
@@ -120,7 +131,8 @@
             "line": 17,
             "name": "I click on Ok button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2159000000
             }
           }
         ]

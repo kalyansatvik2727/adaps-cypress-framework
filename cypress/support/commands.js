@@ -38,8 +38,8 @@ Cypress.Commands.add('login', () => {
     //cy.intercept('**/dashboard/employeeDistribution').as('dashboard');
 
     cy.visit(Cypress.env('baseUrl'));
-    cy.get('input[placeholder=Username]').type(Cypress.env('username')).should('have.value', Cypress.env('username'));
-    cy.get('input[placeholder=Password]').type(Cypress.env('password')).should('have.value', Cypress.env('password'));
+    cy.get('input[placeholder=Username]').type(Cypress.env('username'),{log:false}).should('have.value', Cypress.env('username'));
+    cy.get('input[placeholder=Password]').type(Cypress.env('password'),{log:false}).should('have.value', Cypress.env('password'));
     cy.get('input[value=Login]').click();
 
     //cy.wait('@dashboard');

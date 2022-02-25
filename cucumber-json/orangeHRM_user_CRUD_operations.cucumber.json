@@ -21,7 +21,8 @@
             "line": 4,
             "name": "I navigate to HRM page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3086000000
             }
           },
           {
@@ -30,7 +31,8 @@
             "line": 5,
             "name": "I enter username in HRM",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 274000000
             }
           },
           {
@@ -39,7 +41,8 @@
             "line": 6,
             "name": "I enter password in HRM",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 296000000
             }
           },
           {
@@ -48,7 +51,8 @@
             "line": 7,
             "name": "I click on Login button in HRM",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 5549000000
             }
           },
           {
@@ -57,7 +61,8 @@
             "line": 8,
             "name": "I click on tab with text 'Admin'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3017000000
             }
           },
           {
@@ -66,7 +71,8 @@
             "line": 9,
             "name": "I click on Add button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1027000000
             }
           },
           {
@@ -75,7 +81,8 @@
             "line": 10,
             "name": "I select 'ESS' from User Role dropdown in user management page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 3327000000
             }
           },
           {
@@ -84,7 +91,8 @@
             "line": 11,
             "name": "I select value 'John Smith' from Employee name auto suggest dropdown in user management page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 660000000
             }
           },
           {
@@ -93,7 +101,8 @@
             "line": 12,
             "name": "I enter text 'John' in Username in user management page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 545000000
             }
           },
           {
@@ -102,7 +111,8 @@
             "line": 13,
             "name": "I enter text 'welcome123' in password in user management page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 840000000
             }
           },
           {
@@ -111,7 +121,8 @@
             "line": 14,
             "name": "I enter text 'welcome123' in confirm password in user management page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 555000000
             }
           },
           {
@@ -120,7 +131,8 @@
             "line": 15,
             "name": "I click on Save button in user management page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 355000000
             }
           },
           {
@@ -129,7 +141,8 @@
             "line": 16,
             "name": "I validate page redirects and system users section is present",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2435000000
             }
           }
         ]
@@ -148,7 +161,8 @@
             "line": 19,
             "name": "I navigate to HRM page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2047000000
             }
           },
           {
@@ -157,7 +171,8 @@
             "line": 20,
             "name": "I click on tab with text 'Admin'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2815000000
             }
           },
           {
@@ -166,7 +181,8 @@
             "line": 21,
             "name": "I enter text in search box in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 498000000
             }
           },
           {
@@ -175,7 +191,8 @@
             "line": 22,
             "name": "I click on search in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 792000000
             }
           },
           {
@@ -184,7 +201,8 @@
             "line": 23,
             "name": "I validate search results retreive '1' records in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 36000000
             }
           }
         ]
@@ -203,7 +221,8 @@
             "line": 26,
             "name": "I navigate to HRM page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1727000000
             }
           },
           {
@@ -212,7 +231,8 @@
             "line": 27,
             "name": "I click on tab with text 'Admin'",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2271000000
             }
           },
           {
@@ -221,7 +241,8 @@
             "line": 28,
             "name": "I enter text in search box in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 474000000
             }
           },
           {
@@ -230,7 +251,8 @@
             "line": 29,
             "name": "I click on search in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1057000000
             }
           },
           {
@@ -239,7 +261,8 @@
             "line": 30,
             "name": "I validate search results retreive '1' records in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 36000000
             }
           },
           {
@@ -248,7 +271,8 @@
             "line": 31,
             "name": "I check the record in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 242000000
             }
           },
           {
@@ -257,7 +281,8 @@
             "line": 32,
             "name": "I click on Delete button in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 214000000
             }
           },
           {
@@ -266,7 +291,8 @@
             "line": 33,
             "name": "I click on pop up Ok button in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1497000000
             }
           },
           {
@@ -275,7 +301,8 @@
             "line": 34,
             "name": "I enter text in search box in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 519000000
             }
           },
           {
@@ -284,7 +311,8 @@
             "line": 35,
             "name": "I click on search in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 846000000
             }
           },
           {
@@ -293,7 +321,8 @@
             "line": 36,
             "name": "I validate search results retreive No Records Found in system users page",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 28000000
             }
           }
         ]
