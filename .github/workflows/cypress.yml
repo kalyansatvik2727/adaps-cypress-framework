@@ -17,7 +17,7 @@ jobs:
       - name: Run Cypress Tests
         uses: cypress-io/github-action@v2
         with:
-          build: npm run cy:headless
+          build: npm build
           start: npm start
           record: true
           config-file: cypress.json
