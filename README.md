@@ -1,3 +1,13 @@
+ Step#1: Install dependencies 
+ - npm install 
+
+ Step#2: Verify the cypress for the first time and trigger the test runner
+ - npx cypress open
+
+ Step#3: Run the scripts
+ - npx cypress run (run all the tests/feature files)
+ - create customized runs under package.json/script
+
 - _**fixures**_: fixtures are used as external pieces of static data that can be used by your tests. Read more [here](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Fixture-Files)
 - _**plugins**_: plugin file contains the helper libraries to achieve a specific tasks. Different cypress plugins can be found [here](https://docs.cypress.io/plugins/index.html)
 - _**support**_: By default Cypress will automatically include the support file cypress/support/index.js. This file runs before every single spec file.

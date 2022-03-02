@@ -22,7 +22,7 @@
             "name": "I navigate to HRM page",
             "result": {
               "status": "passed",
-              "duration": 5472000000
+              "duration": 3939000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I enter username in HRM",
             "result": {
               "status": "passed",
-              "duration": 275000000
+              "duration": 237000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I enter password in HRM",
             "result": {
               "status": "passed",
-              "duration": 297000000
+              "duration": 250000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on Login button in HRM",
             "result": {
               "status": "passed",
-              "duration": 5533000000
+              "duration": 4698000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I click on button with text 'Assign Leave'",
             "result": {
               "status": "passed",
-              "duration": 2158000000
+              "duration": 1993000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I select value 'Jasmine Morgan' from Employee name auto suggest dropdown",
             "result": {
               "status": "passed",
-              "duration": 495000000
+              "duration": 463000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "I select value 'CAN - Bereavement' from leave type dropdown",
             "result": {
               "status": "passed",
-              "duration": 193000000
+              "duration": 184000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I click on view details link and validate pop up data",
             "result": {
               "status": "passed",
-              "duration": 670000000
+              "duration": 623000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I select date from From Date date picker",
             "result": {
               "status": "passed",
-              "duration": 333000000
+              "duration": 297000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I select date from To Date date picker",
             "result": {
               "status": "passed",
-              "duration": 507000000
+              "duration": 509000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I click on assign button",
             "result": {
               "status": "passed",
-              "duration": 578000000
+              "duration": 451000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I click on Ok button",
             "result": {
               "status": "passed",
-              "duration": 2159000000
+              "duration": 1802000000
             }
           }
         ]
